@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+</style>
+<html lang="en">
+
+<head>
+    <title>个人简历</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        /* body{
+            border:1px solid gray;
+            width:100%;
+        } */
+        .header {
+            width: 70%;
+            height: 450px;
+            margin: 0 auto;
+            background-image: url(./b2.jpg);
+            background-position: 100% 100%;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            color: darkorange;
+            box-shadow: darkgrey 10px 10px 30px 5px;
+        }
+
+        .toolbar-left {
+            float: left;
+            margin-top: 10px;
+            margin-left: 50px;
+        }
+
+        .toolbar-right {
+            float: right;
+            margin-top: 10px;
+            margin-right: 50px;
+        }
+
+        .photo {
+            width: 100px;
+            height: 100px;
+            margin: 0 auto;
+            padding-top: 110px;
+        }
+
+        .photo img {
+            width: 100%;
+            height: 100%;
+            background-image: url(./b3.jpg);
+            background-position: 100% 100%;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            border-radius: 100px;
+            text-align: center;
+            margin: 0 auto;
+            line-height: 100%;
+        }
+
+        .brief {
+            width: 300px;
+            height: 100px;
+            margin: 0 auto;
+            padding-top: 20px;
+        }
+
+        .brief p {
+            text-align: center;
+            padding-top: 5px;
+        }
+
+        p #btn-green {
+            width: 100%;
+            height: 100%;
+
+        }
+
+        button.btn {
+            background-color: rgb(98, 98, 236);
+            width: 110px;
+            height: 35px;
+            border: none;
+            margin-left: 10px;
+            margin-top: 15px;
+            color: darkorange;
+        }
+
+        /*图片的位置*/
+        div.four-btn {
+            width: 300px;
+            height: 80px;
+            margin: 0 auto;
+            margin-top:-25px;
+        }
+
+        .four-btn p{
+            width:300px;
+            margin:0 auto;
+            padding-left:45px;
+        }
+
+        .four-btn img {
+            width: 35px;
+            height: 35px;
+            max-width: 100%;
+            max-height: 100%;
+            padding:10px;
+        }
+
+
+        .foot {
+            width: 60%;
+            height: 175px;
+            margin: 0 auto;
+            overflow: hidden;
+            box-shadow: darkgrey 10px 10px 30px 5px;
+            margin-top: -10px;
+            color: rgb(107, 107, 224);
+        }
+
+        div.about {
+            width: 45%;
+            height: 100%;
+
+            float: left;
+            padding: 20px;
+        }
+
+        div.basic-information {
+            width: 45%;
+            height: 100%;
+
+            float: right;
+            padding: 20px;
+        }
+
+        label.l1 {
+            padding: 60px;
+        }
+    </style>
+</head>
+
+<body>
+    <!--header-->
+    <div class="header">
+        <!--toolbar-->
+        <div class="toolbar">
+            <div class="toolbar-left">
+                <span>CREATIVE CV</span>
+            </div>
+
+            <div class="toolbar-right">
+                <span>CREATIVE CV</span>
+            </div>
+        </div>
+
+        <div class="photo">
+            <img img="./b2.jpg">
+        </div>
+
+        <div class="brief">
+            <!--包含了姓名、简介、两个按钮-->
+            <p class="name">杨洁</p>
+            <p>Android工程师、负责日常业务开发维护</p>
+            <p id="btn-green">
+                <button class="btn">招聘</button>
+                <button class="btn">查看简历</button>
+            </p>
+
+        </div>
+    </div>
+
+    <!--四个链接-->
+    <div class="four-btn">
+        <p>
+            <img src="./qq1.png">
+            <img src="./微信1.png">
+            <img src="./新浪1.png">
+            <img src="./github2.png">
+        </p>
+    </div>
+
+    <!--foot 分为两栏-->
+    <div class="foot">
+        <div class="about">
+            <h3>About</h3>
+            <br />
+            <span>你好，我是杨洁。现在正在中原银行学习，
+                目前的职位是Android初级工程师，
+                师从向坤增导师，协助段文强老师。</span>
+            <br />
+            <br />
+            <br />
+            <span>仿做的是第一个界面风格。</span>
+        </div>
+
+        <div class="basic-information">
+            <h3>Basic Information</h3>
+            <br />
+            <p>
+                <label>ACE：</label>
+                <label class="l1">24</label>
+            </p>
+
+            <p>
+                <label>EMAIL:</label>
+                <label class="l1">yangjienice@126.com</label>
+            </p>
+            <p>
+                <label>PHONE:</label>
+                <label class="l1">18637872623</label>
+            </p>
+            <p>
+                <label>ADDRESS:</label>
+                <label class="l1">火星77号</label>
+            </p>
+            <p>
+                <label>LANGUACE：</label>
+                <label class="l1">English</label>
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
